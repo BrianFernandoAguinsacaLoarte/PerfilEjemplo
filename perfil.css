@@ -1,69 +1,85 @@
-body{
-    background-color: white;
-    align-items: center;
-}
-
-.avatar{
-    width: 265px;
-    height: 250px;
+body {
+    background-color: #f4f6f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+  }
+  
+  .profile-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+  
+  .avatar {
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-}
-
-.header{
-    text-align: left;
-    height: 300px;
-    padding: 5px;
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-simple-light-blue-solid-background-colorbluelight-bluesolid-backgroundposter-image_49644.jpg);
-    width: 265px;
-}
-
-.user-name{
-    font-size: 18px;
-    margin-top: 14px;
-}
-
-.icon{
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    background-size: cover;
-}
-.email{
-    background-image: url(https://cdn-icons-png.flaticon.com/512/3296/3296467.png);
-}
-
-.about{
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-
-}
-.about h2{
-    color: #545454;
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-.about p{
-    color: #545454;
-    font-size: 20px;
-    line-height: 1.5;
-}
-.text{
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .user-name {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #fff;
+  }
+  
+  .about {
     margin-top: 20px;
-    margin-bottom: 20px;
-    color:    #808080;
+  }
+  
+  .about h2 {
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 20px;
-    line-height: 1.5;
-
-}
-.uml{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color:black;
-    font-size: 20px;
-    line-height: 1.5;
-    margin-left: 1500px;
-
-
-}
+  }
+  
+  .about p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  
+  .info-list {
+    list-style-type: none;
+    padding: 0;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  
+  .info-list li strong {
+    color: #222;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
